@@ -1,0 +1,37 @@
+in this i going to explain the result analysis of what we have done for this model
+in the three parts
+======================================== 
+part 1 :
+    we used 128 for the first layer and 64 for the second and number of neurons 
+    in the last one equal to the number of intents 
+    used also "Adam" optimizers and 'loss catergorical cross entropy"
+    and the dropout in the first layer was ".5" and the second was also ".5"
+    and trained the model for "110" epoch 
+    in this case the accurecy reached to ".7" which i consider it over fitting for 
+    the amount of the data we used to trained the model
+
+========================================
+part 2 :   
+    we used 128 for the first layer and 64 for the second and number of neurons 
+    in the last one equal to the number of intents 
+    used also "SGD" optimizers and 'loss catergorical cross entropy"
+    and the dropout in the first layer was ".5" and the second was also ".5"
+    and trained the model for "200" epoch 
+    in this case the accurecy reached to ".8" which i consider it over fitting for 
+    the amount of the data we used to trained the model
+============================================
+part 3 : 
+    in this one i performed many changes inthe model but finally i rachead 
+    a good result like the following:
+    we used 128 for the first layer and 64 for the second and number of neurons 
+    in the last one equal to the number of intents 
+    used also "SGD" optimizers and 'loss catergorical cross entropy"
+    and the dropout in the first layer was ".6" and the second was also ".7"
+    and trained the model for "150" epoch 
+    in this case the accurecy reached to "..5" which i consider a good accurecy for the model
+============================================
+our analyise for what we performed on the model that is 
+the dropout plays essential role in the accurency of modle as well as the number of epochs 
+then the optimizer we use also make a small infulence on the accurecy of the model 
+
+ 
