@@ -1,10 +1,5 @@
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg-mh_ANCO0agaI0aDROXaNrLG-5x4pf1A7A&usqp=CAU" alt="image">
-<style>
-  img {
-    border-radius: 50%; /* round the corners */
-    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* add a shadow */
-  }
-</style>
+
 
 
 
